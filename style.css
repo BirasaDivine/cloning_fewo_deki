@@ -29,3 +29,78 @@ body{
 nav ul li{
     margin : 0 15px;
 }
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+.hero {
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px; 
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/* Search Form */
+.search-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    max-width: 1000px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.search-form form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.input-group label {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
