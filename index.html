@@ -31,10 +31,23 @@
         </div>
 
         <div class="search">
-            <input type="text" placeholder="Where do you want to go?">
-            <button>Search</button>
+            <form>
+                <div class="input-group">
+                    <label for="destination">Where do you want to go?</label>
+                    <input type="text" id="destination" placeholder="Where do you want to go?">
+                </div>
+                <div class="input-group">
+                    <label for="dates">Data</label>
+                    <input type="text" id="dates" value="Nov.25 -Dec.2">
+                </div>
+                <div class="input-group">
+                    <label for="guests">Guests</label>
+                    <input type="text" id="guests" value="2 travellers">
+                </div>
+                <button type="submit">Search</button>
+            </form>
         </div>
-        </div>
+    </section>
 </body>
 
 </html>
