@@ -7,7 +7,7 @@ body{
     font-family:  sans-serif;
     background: #f5f5f5;
 }
-.navbar{
+.nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +35,7 @@ nav ul li a {
     font-size: 14px;
 }
 .hero {
-    background-image: url('background.jpg'); 
+    background-image: url(images/background.jpg); 
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -53,8 +53,8 @@ nav ul li a {
     margin-bottom: 30px;
 }
 
-/* Search Form */
-.search-form {
+
+.search{
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 10px;
@@ -74,7 +74,7 @@ nav ul li a {
 
 .input-group {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-right: 10px;
 }
 
